@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Create venv (Linux)",
+      "type": "shell",
+      "command": "python3 -m venv venv",
+      "group": "build",
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "Install requirements (Linux)",
+      "type": "shell",
+      "command": "${workspaceFolder}/venv/bin/pip install -r requirements.txt",
+      "group": "build",
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "Run Flask (integrated)",
+      "type": "shell",
+      "command": "${workspaceFolder}/venv/bin/python app.py",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always"
+      }
+    }
+  ]
+}

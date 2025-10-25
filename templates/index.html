@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RookSec Student — BCA | Red Teaming & Cybersecurity Learner</title>
+  <meta name="description" content="Student portfolio: learning red teaming, web security, bug bounties, OSINT, and practical cybersecurity as part of a BCA program.">
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">Rook<span>Sec</span></div>
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#learning">Learning</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>I'm a BCA student learning practical red teaming & cybersecurity.</h1>
+      <p class="lead">Focused on hands-on learning: web app security (XSS, SQLi), recon (OSINT), network scanning, and building small PoCs. Actively participating in labs, CTFs, and bug bounty programs to grow skills.</p>
+      <div class="cta-row">
+        <a class="btn" href="#projects">My Labs</a>
+        <a class="btn ghost" href="#contact">Connect / Mentorship</a>
+      </div>
+      <ul class="meta">
+        <li>Program: BCA — final year student (or change to your year)</li>
+        <li>Learning focus: Red teaming basics, OWASP Top 10, ethical hacking, OSINT</li>
+        <li>Tools I use: Burp Suite, Nmap, Wireshark, sqlmap, Git</li>
+      </ul>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>Hi — I'm studying BCA and building practical cybersecurity experience through lab work, online courses, and community CTFs. I enjoy translating classroom theory into hands-on exercises and clear writeups that I can share with course instructors or teammates.</p>
+    </section>
+
+    <section id="learning" class="card">
+      <h2>Learning Roadmap</h2>
+      <div class="grid">
+        <div class="item">
+          <h3>Foundations</h3>
+          <p>Computer networks, operating systems, databases — the core BCA topics that support security work.</p>
+        </div>
+        <div class="item">
+          <h3>Web Security</h3>
+          <p>OWASP Top 10, input validation, authentication & session security, simple exploit chains and PoCs.</p>
+        </div>
+        <div class="item">
+          <h3>Recon & OSINT</h3>
+          <p>Footprinting, subdomain enumeration, public data collection for red team planning.</p>
+        </div>
+        <div class="item">
+          <h3>Red Team Basics</h3>
+          <p>Adversary emulation at a small scale: initial access, lateral movement ideas, reporting and mitigation suggestions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Labs, Projects & CTFs</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>Simple XSS lab</h3>
+          <p>Built a lab to practice reflected and stored XSS. Wrote short PoC steps and created sample payloads for testing. Keywords: XSS, payload, PoC, lab.</p>
+        </article>
+        <article class="project">
+          <h3>SQLi practice</h3>
+          <p>Completed a basic SQL injection exercise on a deliberately vulnerable app and documented parameterized queries as remediation.</p>
+        </article>
+        <article class="project">
+          <h3>OSINT mini-project</h3>
+          <p>Collected publicly available data about a sample target (open-source), practiced passive recon, and created a short report summarizing findings and recommendations.</p>
+        </article>
+      </div>
+      <p class="small">Note: All labs are performed in safe, controlled environments or with explicit permission.</p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills & Tools</h2>
+      <ul class="skills-grid">
+        <li>Web app testing basics (XSS, SQLi, CSRF)</li>
+        <li>OSINT & reconnaissance</li>
+        <li>Network scanning (Nmap), packet review (Wireshark)</li>
+        <li>Basic scripting (Python, Bash)</li>
+        <li>Version control (Git) & collaboration</li>
+        <li>Participation in CTFs and online learning platforms</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card contact-card">
+      <h2>Contact & Collaboration</h2>
+      <p>Email: <a href="mailto:rooksec.student@example.com">rooksec.student@example.com</a></p>
+      <p>Open to mentorship, group projects, and internships. If you’re an instructor or mentor and want to collaborate, please reach out — I value feedback and guided learning.</p>
+      <p class="small">Disclaimer: I follow responsible disclosure and only test systems I own or have explicit permission to test.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© RookSec Student — Learning red teaming & cybersecurity. Built as part of BCA learning journey.</small>
+    </div>
+  </footer>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
