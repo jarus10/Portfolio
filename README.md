@@ -18,11 +18,11 @@ python app.py
 # open http://127.0.0.1:5000
 ```
 
-```## How to use for coursework / internships
+<!--## How to use for coursework / internships
 - Update the "About" section with your year (e.g., 3rd year BCA) and college name.
 - Add lab reports and short writeups inside the `Projects` section — include steps and screenshots saved in `assets/images/`.
 - Link to GitHub repos or CTF profiles to show practical work (e.g., TryHackMe, HackTheBox).
-```
+-->
 
 ## Responsible disclosure
 Only test systems that are in-scope and authorized. Use proper NDAs and scope definitions for paid engagements or red team ops.
